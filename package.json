@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "Modern ES module for socket.io-client",
   "source": "src/index.js",
-  "module": "dist/esm-socketio-client.module.js",
-  "esmodule": "dist/esm-socketio-client.modern.js",
+  "module": "dist/esm-socketio-client.modern.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "microbundle -f modern,es"
+    "build": "microbundle -f modern"
   },
   "devDependencies": {
     "microbundle": "^0.12.3",
