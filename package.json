@@ -1,6 +1,6 @@
 {
   "name": "esm-socketio-client",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Modern ES module for socket.io-client",
   "source": "src/index.js",
   "module": "dist/esm-socketio-client.modern.js",
